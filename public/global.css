@@ -1,0 +1,76 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.25em;
+    font-family: inherit;
+    font-size: 1rem;
+}
+ul,ol,li {
+    list-style: none;
+}
+h6 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+a {
+    color: #233fc9;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+::-moz-selection {
+    background: #acc5fb;
+    text-shadow: none;
+}
+::selection {
+    background: #acc5fb;
+    text-shadow: none;
+}
+textarea {
+    resize: vertical;
+}
+input, textarea, select, button {
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+    padding: .5em;
+    border-radius: .25em;
+}
+input:focus, textarea:focus, select:focus, button:focus {
+    border: 1px solid #999;
+}
